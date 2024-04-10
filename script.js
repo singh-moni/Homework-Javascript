@@ -102,7 +102,34 @@ Find the remainder of dividing the result by the fourth number.
   console.log(isvalid)
 
 
-000.00000.0.0.0.toExponential.apply......Biggerfirst.valueOf.apply.apply.apply.apply.apply.apply.apply.
+// let speed =s, Total cost = t, budget=b, cost/galloon= c, miles/gallon= m, Total distance=d, gallon= g, total gallons= tg
+/** gallons needed at spcific speed= g=s/m (speed/miles per gallon ) 
+ * totalgallon(tg) = g/s*d
+ * 
+ * 
+*/
+
+//Fuel needed to cover distance at specific speed (s)
+// when traveling at 60 mph, we get 28 mpg, so fuel needed to cover 60 miles is (60/28)
+let x= s/m
+
+let totalgallon = (x*d)/s
+
+//Total fuel needed for the trip, where s = speed of travel
+let totalfuel = (x*d)/s
+
+//Total fuel expenses, where c = cost per gallon
+let totalcost = totalgallon * c 
+
+//Total duration of the trip, where d= distance and s= speed of travel 
+let totaltime = d/s
+
+
+
+
+
+let 
+
 
 
 
