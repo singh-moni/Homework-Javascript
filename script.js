@@ -103,14 +103,95 @@ Find the remainder of dividing the result by the fourth number.
 
 
 // let speed =s, Total cost = t, budget=b, cost/galloon= c, miles/gallon= m, Total distance=d, gallon= g, total gallons= tg
-/** gallons needed at spcific speed= g=s/m (speed/miles per gallon ) 
+/** gallons usedin an hour at specific speed= g=s/m (speed/miles per gallon ) 
  * totalgallon(tg) = g/s*d
  * 
  * 
 */
 
-//Fuel needed to cover distance at specific speed (s)
+//Fuel needed to cover distance at specific speed (s)= 
 // when traveling at 60 mph, we get 28 mpg, so fuel needed to cover 60 miles is (60/28)
+
+let S1 = 55;
+let M1= 30;
+let G1= S1 / M1 ;
+console.log(`gallons needed to go 55 miles in an hour : ${G1}`)//1.83 gallons needed to go 55mph at 3ompg
+// to go 55 mph @ 30 mpg ,you need 1.83 gallons/hour,then to go 1500 miles we would need 1.83*1500/55
+let TG1= (G1 * 1500) / S1 ;
+console.log(`total fuel needed to go 1500 miles at 55 mpg and fuel efficiency of 30 mph : ${TG1}`)
+/**to go 1500 miles at 55mph speed and fuel efficiency of 30mpg, total fuel needed is 50 gallons,
+ * to calculate toatl cost for this trip we have to multiply total gallons by average cost of fuel i.e $3/gallon*/
+ let TC1 = TG1 * 3;
+ console.log(`the total cost of trip at 55mph and 30mpg : $${TC1}`)
+
+let totalBudjet = 175
+ if (TC1 <= 175) {
+  console.log("within budget")
+ }
+// TTH = Toatal Trip Hours?
+ let TTH1 = 1500 / S1;
+ console.log(`Total Trip-1 Hours = ${TTH1}`)// 27.27 hours
+
+
+ let S2 = 60;
+ let M2= 28;
+ let G2= S2 / M2 ;
+ console.log(`gallons needed to go 60 miles in an hour : ${G2}`)//2.14 gallons needed to go 60 mph at 28 mpg
+ // to go 60 mph @ 28 mpg ,you need 2.14 gallons/hour,then to go 1500 miles we would need 2.14*1500/60
+ let TG2= (G2 * 1500) / S2 ;
+ console.log(`total fuel needed to go 1500 miles at 55 mpg and fuel efficiency of 30 mph : ${TG2}`)
+ /**to go 1500 miles at 60 mph speed and fuel efficiency of 28 mpg, total fuel needed is 53.57 gallons,
+  * to calculate toatl cost for this trip we have to multiply total gallons by average cost of fuel i.e $3/gallon*/
+  let TC2 = TG2 * 3;
+  console.log(`the total cost of trip at 60mph and 28 mpg : $${TC2}`)
+
+ if (TC2 <= 175) {
+  console.log("within budget")
+ }
+
+ let TTH2 = 1500 / S2;
+ console.log(`Total Trip-2 Hours = ${TTH2}`)// 25 hours
+
+
+  let S3 = 75;
+ let M3= 23;
+ let G3= S3 / M3 ;
+ console.log(`gallons needed to go 75 miles in an hour : ${G3}`)
+ //3.2 gallons needed to go 75 mph at 23 mpg
+ // to go 75 mph @ 23 mpg ,you need 3.2 gallons/hour,then to go 1500 miles we would need 3.2*1500/75
+ let TG3= (G3 * 1500) / S3 ;
+ console.log(`total fuel needed to go 1500 miles at 55 mpg and fuel efficiency of 30 mph:${TG3}`)
+ /**to go 1500 miles at 75 mph speed and fuel efficiency of 23 mpg, total fuel needed is 65.21 gallons,
+  * to calculate toatl cost for this trip we have to multiply total gallons by average cost of fuel i.e $3/gallon*/
+  let TC3 = TG3 * 3;
+  console.log(`the total cost of trip at 60mph and 28 mpg : $${TC3}`)
+
+  if (TC3 <= 175) {
+    console.log("within budget")
+   } else {
+   console.log(" Out of Budget ")}
+
+   let TTH3 = 1500 / S3;
+ console.log(`Total Trip-3 Hours = ${TTH3}`)//  20 hours
+
+
+
+
+
+/**
+let S2= 60;
+let M2 = 28;
+let G2 = S2 / M2;
+
+let S3= 75;
+let M3 = 23;
+let G3 = S3 / M3;
+
+
+let 
+let  
+let fuel = m
+let
 let x= s/m
 
 let totalgallon = (x*d)/s
@@ -128,7 +209,7 @@ let totaltime = d/s
 
 
 
-let 
+let */
 
 
 
